@@ -29,33 +29,24 @@ Number of observations: 180
 
 Variable description format:
 
-[variable name]
-
-[Description of variable]
-	
-[IF APPLICABLE - factor levels]
+	[variable name]
+		[Description of variable]	
+			[factor levels]
 		
 
 Subject
 
-	Numeric identifier given to each anonymous test subject.
-	
+	Numeric identifier given to each anonymous test subject.	
 		1–30
 		
 Activity
 
-	Physical activity performed by subject for measurement.
-	
-		LAYING
-		
-		SITTING
-		
-		STANDING
-		
-		WALKING
-		
-		WALKING_DOWNSTAIRS
-		
+	Physical activity performed by subject for measurement.	
+		LAYING		
+		SITTING		
+		STANDING		
+		WALKING		
+		WALKING_DOWNSTAIRS		
 		WALKING_UPSTAIRS
 
 
@@ -76,34 +67,27 @@ frequency-domain measurements of the same quantities.
 The selection of each of these parameters is codified in the variable names as follows:
 
 	[t/f] 	t: time-domain
-
 			f: frequency-domain
 			
 	[Body/Gravity]	Body: subject's body motion
-
 					Gravity: gravitational motion
 					
 	[Acc/AccJerk/Gyro/GyroJerk]	Acc: linear acceleration
-
-								AccJerk: linear jerk
-								
-								Gyro: angular velocity
-								
+								AccJerk: linear jerk								
+								Gyro: angular velocity								
 								GyroJerk: angular jerk
 				
-	[Mean/Std]	Mean: mean measurement
-				
+	[Mean/Std]	Mean: mean measurement				
 				Std: standard deviation measurement
 				
-	[X/Y/Z/Mag] X: motion vector's X component
-				
-				Y: motion vector's Y component
-				
-				Z: motion vector's Z component
-				
+	[X/Y/Z/Mag] X: motion vector's X component				
+				Y: motion vector's Y component				
+				Z: motion vector's Z component				
 				Mag: motion vector's magnitude
 				
-NOTE: 	Units for the measurements below were not indicated in the original documentation.
+NOTE: 	
+
+		Units for the measurements below were not indicated in the original documentation.
 		However, units for other unused (but comparable) measurements in the data set were
 		given in units standard gravity units g = 9.80665 m/s^2, so if we are to assume, we
 		assume the measurements below are in standard gravity units too. Thus jerk measurements
@@ -123,8 +107,7 @@ tBodyAccMeanY
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear acceleration in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccMeanZ
@@ -132,8 +115,7 @@ tBodyAccMeanZ
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear acceleration in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccStdX
@@ -141,8 +123,7 @@ tBodyAccStdX
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear acceleration in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccStdY
@@ -150,8 +131,7 @@ tBodyAccStdY
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear acceleration in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccStdZ
@@ -159,8 +139,7 @@ tBodyAccStdZ
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear acceleration in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tGravityAccMeanX
@@ -168,8 +147,7 @@ tGravityAccMeanX
 	Mean value of all observed means of time-domain signal measurements of subject's
 	gravitational linear acceleration in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccMeanY
@@ -177,8 +155,7 @@ tGravityAccMeanY
 	Mean value of all observed means of time-domain signal measurements of subject's
 	gravitational linear acceleration in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccMeanZ
@@ -186,8 +163,7 @@ tGravityAccMeanZ
 	Mean value of all observed means of time-domain signal measurements of subject's
 	gravitational linear acceleration in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccStdX
@@ -195,8 +171,7 @@ tGravityAccStdX
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's gravitational linear acceleration in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccStdY
@@ -204,8 +179,7 @@ tGravityAccStdY
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's gravitational linear acceleration in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tGravityAccStdZ
@@ -213,8 +187,7 @@ tGravityAccStdZ
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's gravitational linear acceleration in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkMeanX
@@ -222,8 +195,7 @@ tBodyAccJerkMeanX
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear jerk in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkMeanY
@@ -231,8 +203,7 @@ tBodyAccJerkMeanY
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear jerk in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkMeanZ
@@ -240,8 +211,7 @@ tBodyAccJerkMeanZ
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear jerk in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkStdX
@@ -249,8 +219,7 @@ tBodyAccJerkStdX
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear jerk in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkStdY
@@ -258,8 +227,7 @@ tBodyAccJerkStdY
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear jerk in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkStdZ
@@ -267,8 +235,7 @@ tBodyAccJerkStdZ
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear jerk in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroMeanX
@@ -276,8 +243,7 @@ tBodyGyroMeanX
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular velocity in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroMeanY
@@ -285,8 +251,7 @@ tBodyGyroMeanY
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular velocity in the y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 
 	
@@ -295,8 +260,7 @@ tBodyGyroMeanZ
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular velocity in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroStdX
@@ -304,8 +268,7 @@ tBodyGyroStdX
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's body angular velocity in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroStdY
@@ -313,8 +276,7 @@ tBodyGyroStdY
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's body angular velocity in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 				
 tBodyGyroStdZ
@@ -322,8 +284,7 @@ tBodyGyroStdZ
 	Mean value of all observed standard deviations of time-domain signal measurements of
 	subject's body angular velocity in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkMeanX
@@ -331,8 +292,7 @@ tBodyGyroJerkMeanX
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular jerk in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkMeanY
@@ -340,8 +300,7 @@ tBodyGyroJerkMeanY
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular jerk in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkMeanZ
@@ -349,8 +308,7 @@ tBodyGyroJerkMeanZ
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular jerk in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkStdX
@@ -358,8 +316,7 @@ tBodyGyroJerkStdX
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body angular jerk in the X direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkStdY
@@ -367,8 +324,7 @@ tBodyGyroJerkStdY
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body angular jerk in the Y direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkStdZ
@@ -376,8 +332,7 @@ tBodyGyroJerkStdZ
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body angular jerk in the Z direction while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyAccMagMean
@@ -385,8 +340,7 @@ tBodyAccMagMean
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear acceleration magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccMagStd
@@ -394,8 +348,7 @@ tBodyAccMagStd
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear acceleration magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccMagMean
@@ -403,8 +356,7 @@ tGravityAccMagMean
 	Mean value of all observed means of time-domain signal measurements of subject's
 	gravitational linear acceleration magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tGravityAccMagStd
@@ -412,8 +364,7 @@ tGravityAccMagStd
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's gravitational acceleration magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.		
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkMagMean
@@ -421,8 +372,7 @@ tBodyAccJerkMagMean
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body linear jerk magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyAccJerkMagStd
@@ -430,8 +380,7 @@ tBodyAccJerkMagStd
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body linear jerk magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroMagMean
@@ -439,8 +388,7 @@ tBodyGyroMagMean
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular velocity magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroMagStd
@@ -448,8 +396,7 @@ tBodyGyroMagStd
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body angular velocity magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in standard gravity units 'g'.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkMagMean
@@ -457,8 +404,7 @@ tBodyGyroJerkMagMean
 	Mean value of all observed means of time-domain signal measurements of subject's
 	body angular jerk magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 tBodyGyroJerkMagStd
@@ -466,8 +412,7 @@ tBodyGyroJerkMagStd
 	Mean value of all observed standard deviations of time-domain signal measurements
 	of subject's body angular jerk magnitude while performing an activity.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 fBodyAccMeanX
@@ -476,8 +421,7 @@ fBodyAccMeanX
 	body linear acceleration in the X direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccMeanY
@@ -486,8 +430,7 @@ fBodyAccMeanY
 	body linear acceleration in the Y direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccMeanZ
@@ -496,8 +439,7 @@ fBodyAccMeanZ
 	body linear acceleration in the Z direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccStdX
@@ -507,8 +449,7 @@ fBodyAccStdX
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccStdY
@@ -518,8 +459,7 @@ fBodyAccStdY
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccStdZ
@@ -529,8 +469,7 @@ fBodyAccStdZ
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.			
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkMeanX
@@ -539,8 +478,7 @@ fBodyAccJerkMeanX
 	body linear jerk in the X direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.			
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkMeanY
@@ -549,8 +487,7 @@ fBodyAccJerkMeanY
 	body linear jerk in the Y direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.	
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.			
 		(See NOTE above for unit assumptions)
 		
 	
@@ -560,8 +497,7 @@ fBodyAccJerkMeanZ
 	body linear jerk in the Z direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkStdX
@@ -571,8 +507,7 @@ fBodyAccJerkStdX
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkStdY
@@ -582,8 +517,7 @@ fBodyAccJerkStdY
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkStdZ
@@ -593,8 +527,7 @@ fBodyAccJerkStdZ
 	Each observed value that was averaged was obtained by Fast Fourier Transform of the
 	time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroMeanX
@@ -603,8 +536,7 @@ fBodyGyroMeanX
 	body angular velocity in the X direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroMeanY
@@ -613,8 +545,7 @@ fBodyGyroMeanY
 	body angular velocity in the Y direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroMeanZ
@@ -623,8 +554,7 @@ fBodyGyroMeanZ
 	body angular velocity in the Z direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroStdX
@@ -634,7 +564,6 @@ fBodyGyroStdX
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
 		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroStdY
@@ -643,8 +572,7 @@ fBodyGyroStdY
 	subject's body angular velocity in the y direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroStdZ
@@ -653,8 +581,7 @@ fBodyGyroStdZ
 	subject's body angular velocity in the Z direction while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccMagMean
@@ -663,8 +590,7 @@ fBodyAccMagMean
 	body linear acceleration magnitude while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccMagStd
@@ -673,8 +599,7 @@ fBodyAccMagStd
 	subject's body linear acceleration magnitude while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkMagMean
@@ -683,8 +608,7 @@ fBodyAccJerkMagMean
 	body linear jerk magnitude while performing an activity. Each observed value that was
 	averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyAccJerkMagStd
@@ -693,8 +617,7 @@ fBodyAccJerkMagStd
 	subject's body linear jerk magnitude while performing an activity. Each observed value
 	that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroMagMean
@@ -703,8 +626,7 @@ fBodyGyroMagMean
 	body angular velocity magnitude while performing an activity. Each observed value that
 	was	averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroMagStd
@@ -713,8 +635,7 @@ fBodyGyroMagStd
 	of subject's body angular velocity magnitude while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroJerkMagMean
@@ -723,8 +644,7 @@ fBodyGyroJerkMagMean
 	body angular jerk magnitude while performing an activity. Each observed value that
 	was	averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)
 		
 fBodyGyroJerkMagStd
@@ -733,6 +653,5 @@ fBodyGyroJerkMagStd
 	of subject's body angular jerk magnitude while performing an activity. Each observed
 	value that was averaged was obtained by Fast Fourier Transform of the time-domain signal.
 	
-		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.
-		
+		Numeric, normalised and bounded in [-1,1], assumed in g/s^2.		
 		(See NOTE above for unit assumptions)

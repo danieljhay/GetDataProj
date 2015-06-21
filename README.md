@@ -19,10 +19,10 @@ The original data set referenced above contains a README and Code Book for itsel
 
 Number of files in this repository: 3
 
-File names:	CodeBook.md
+File names:	
 
+			CodeBook.md
 			README.md
-			
 			run_analysis.R
 
 
