@@ -7,30 +7,38 @@ Data course offered by The Johns Hopkins University via coursera.org. The R scri
 is designed to act on an existing data set not found in this repo.
 
 Original data located at:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 With full description at:
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The original data set referenced above contains a README and Code Book for itself.
 
 
 Number of files in this repository: 3
+
 File names:	CodeBook.md
+
 			README.md
+			
 			run_analysis.R
 
 
 CodeBook.md
+
 	File contains descriptions of all variables present in the data set produced
 	by the R script run_analysis.R
 
 
 README.md
+
 	You're reading it!
 
 
 run_analysis.R
+
 	R script that acts on the original dataset to crop it and transform it into
 	another tidy data set. The output data is named GetDataProjTidyData.txt, and
 	should be written to your home directory upon running the script.
