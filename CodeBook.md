@@ -1,4 +1,5 @@
 Getting and Cleaning Data - Course Project
+
 Code book
 
 This code book describes the variables present in the data set produced
@@ -7,33 +8,40 @@ offered by The Johns Hopkins University via coursera.org. The data were
 produced by acquiring and manipulating an existing data set.
 
 (Original data located at:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 With full description at:
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The original data set referenced above contains a README and Code Book for itself.)
 
 
 Number of files: 1
+
 Filename: GetDataProjTidyData.txt
+
 Number of variables: 68
+
 Number of observations: 180
 
 
 Variable description format:
 
 [variable name]
-	[Description of variable]
-		[IF APPLICABLE - factor levels]
+
+  * [Description of variable]
+	
+    * [IF APPLICABLE - factor levels]
 		
 
 Subject
-	Numeric identifier given to each anonymous test subject.
+  * Numeric identifier given to each anonymous test subject.
 		1–30
 		
 Activity
-	Physical activity performed by subject for measurement.
+  * Physical activity performed by subject for measurement.
 		LAYING
 		SITTING
 		STANDING
@@ -58,21 +66,21 @@ frequency-domain measurements of the same quantities.
 
 The selection of each of these parameters is codified in the variable names as follows:
 
-	[t/f] 	t: time-domain
+  * [t/f] 	t: time-domain
 			f: frequency-domain
 			
-	[Body/Gravity]	Body: subject's body motion
+  * [Body/Gravity]	Body: subject's body motion
 					Gravity: gravitational motion
 					
-	[Acc/AccJerk/Gyro/GyroJerk]	Acc: linear acceleration
+  * [Acc/AccJerk/Gyro/GyroJerk]	Acc: linear acceleration
 								AccJerk: linear jerk
 								Gyro: angular velocity
 								GyroJerk: angular jerk
 				
-	[Mean/Std]	Mean: mean measurement
+  * [Mean/Std]	Mean: mean measurement
 				Std: standard deviation measurement
 				
-	[X/Y/Z/Mag] X: motion vector's X component
+  * [X/Y/Z/Mag] X: motion vector's X component
 				Y: motion vector's Y component
 				Z: motion vector's Z component
 				Mag: motion vector's magnitude
